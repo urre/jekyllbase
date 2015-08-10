@@ -8,6 +8,10 @@
 	</div>
 </footer>
 
+{% if site.buildtype == "production" %}
+{% javascript main %}
+{% else %}
 <script src="{{site.baseurl }}/js/main.js"></script>
+{% endif %}
 
 </script>

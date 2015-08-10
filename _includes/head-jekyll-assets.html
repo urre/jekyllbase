@@ -7,6 +7,12 @@
 
     <meta name="description" content="{{ site.description }}">
 
+
+    {% if site.buildtype == "production" %}
+    {% stylesheet main %}
+    {% else %}
     <link rel="stylesheet" href="{{site.baseurl }}/css/main.css">
-    
+    {% endif %}
+
+
 </head>
