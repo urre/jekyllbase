@@ -8,6 +8,7 @@ buildtype: 			development
 url:				https://github.com/urre/jekyllbase
 repo: 				https://github.com/urre/jekyllbase
 twittercards:		true
+baseurl:     		""
 
 # Build settings
 markdown:     rdiscount
