@@ -27,6 +27,10 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ### Build for production for use on Github Pages
 
+No special build required. Github is doing the work for you.
+	
+But, you can also build this build using:
+
 	gulp github
 
 ### Build for production for use on AWS or separate hosting/VPS
