@@ -7,15 +7,14 @@ exclude: 			["node_modules", "gulpfile.js", "package.json", "bower_components", 
 buildtype: 			development
 url:				http://urre.github.io/jekyllbase
 repo: 				https://github.com/urre/jekyllbase
-twittercards:		true
-baseurl:     		/jekyllbase/
+twittercards: 		true 		
 
 # Build settings
-markdown: redcarpet
-paginate:     3
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
+markdown: 			redcarpet
+paginate:     		3
+highlighter: 		rouge
+lsi: 				false
+excerpt_separator: 	"\n\n"
 
 # Permalinks
 relative_permalinks: true
