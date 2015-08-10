@@ -10,8 +10,7 @@ repo: 				https://github.com/urre/jekyllbase
 twittercards:		true
 
 # Build settings
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
 paginate:     10
-markdown:    redcarpet
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
