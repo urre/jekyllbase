@@ -13,6 +13,10 @@ Minimal Jekyll starter using Basscss and Gulp.
 + [Jekyll Assets](https://github.com/jekyll-assets/jekyll-assets) (optional (not compatible with Github Pages))
 + Some helpers: plumber, size, csslint, jshint, cssmin, imagemin...
 
+## Setup
+
+	bundle install && npm install && bower install
+
 ## Develop
 
 With a single command you have the site spinning locally at [http://localhost:3000/](http://localhost:3000/). [BrowserSync](http://www.browsersync.io) injects and reloads on file changes (Sass files, Markdown files and html files/partials).
