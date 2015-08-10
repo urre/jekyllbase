@@ -25,13 +25,13 @@ With a single command you have the site spinning locally at [http://localhost:30
 
 ## Build
 
-### Build for production for use on AWS or separate hosting/VPS
-
-	gulp prod
-
 ### Build for production for use on Github Pages
 
 	gulp github
+
+### Build for production for use on AWS or separate hosting/VPS
+
+	gulp prod
 
 ## Deploy
 
