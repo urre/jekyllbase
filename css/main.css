@@ -1491,3 +1491,7 @@ p code {
   padding: 1rem;
   font-size: .9rem;
   color: #666; }
+
+p code {
+  display: inline-block;
+  padding: .3rem; }
