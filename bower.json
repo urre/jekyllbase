@@ -1,0 +1,11 @@
+{
+  "name": "urbansanden",
+  "version": "0.1.0",
+  "authors": [
+    "Urban Sanden <hej@urre.me>"
+  ],
+  "description": "New personal website",
+  "devDependencies": {
+    "basscss-sass": "*"
+  }
+}

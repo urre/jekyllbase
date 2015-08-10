@@ -1,0 +1,37 @@
+{
+  "name": "jekyllbase",
+  "version": "0.1.0",
+  "description": "Jekyll Base",
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Urban Sanden",
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "*",
+    "gulp-csslint": "*",
+    "gulp-cssmin": "*",
+    "gulp-header": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-plumber": "*",
+    "gulp-sass": "*",
+    "gulp-shell": "*",
+    "gulp-size": "*",
+    "gulp-uglify": "*",
+    "imagemin-pngcrush": "*",
+    "require-dir": "*"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "homepage": "https://labs.urre.me"
+}

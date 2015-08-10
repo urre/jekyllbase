@@ -1,0 +1,1 @@
+!function(){"use strict";var n={init:function(){console.log("Jekyllbase init ok!")}};document.addEventListener("DOMContentLoaded",function(t){n.init()})}();
