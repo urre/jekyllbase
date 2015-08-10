@@ -12,6 +12,6 @@ var messages = {
 
 gulp.task("jekyll-build-prod", function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.exec("jekyll", ["build", "--config", config.html.base+"_config.yml"], {stdio: "inherit"})
+    return cp.exec("jekyll", ["build", "--config", config.html.base+"_config-prod.yml"], {stdio: "inherit"})
     .on("close", done);
 });
