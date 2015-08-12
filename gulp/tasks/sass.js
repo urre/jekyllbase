@@ -21,7 +21,7 @@ gulp.task('sass', function() {
     .pipe(sass())
     .pipe(prefix({ browsers: ['last 2 versions'] }))
     .pipe(size())
-    //.pipe(cssmin())
+    .pipe(cssmin())
     .pipe(gulp.dest(config.site.css))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest(config.scss.dist))
