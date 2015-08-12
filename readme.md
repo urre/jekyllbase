@@ -57,3 +57,7 @@ For example this project repo is called jekyllbase, and the site url is [http://
 Https is supported on project sites, so you can use [https://urre.github.io/jekyllbase/](https://urre.github.io/jekyllbase/). Just make sure all references is https. Otherwise you'll get cerfificate warnings/issues.
 
 [Read more](https://pages.github.com/)
+
+*Custom domain?*
+
+Yup, read [https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
