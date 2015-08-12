@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis eros elit. 
+description: About Jekyllbase
 ---
 
 ### About
@@ -21,7 +21,17 @@ Minimal Jekyll starter using Basscss and Gulp. By [@urre](http://github.com/urre
 
 ## Setup
 
-	bundle install && npm install && bower install
+Install Ruby Gems with Bundler
+
+	bundle install 
+
+Install NPM dependencies
+
+	npm install
+
+Install Bower dependencies
+
+	bower install
 
 ## Develop
 
