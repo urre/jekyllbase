@@ -45,3 +45,13 @@ No special build required. Github is doing the work for you.
 	git push origin gh-pages
 
 Also set ``gh-pages`` as default branch when pushing to Github Pages.
+
+#### Tips for Github Pages
+
+If using a project site (not the "main" repo using the same name as the github user/organization), you'll need to set your baseurl to your project repo name. Also, deploy to ``gh-pages`` branch. 
+
+For example this project repo is called jekyllbase, and the site url is [http://urre.github.io/jekyllbase](http://urre.github.io/jekyllbase/). 
+
+Https is supported on project sites, so you can use [https://urre.github.io/jekyllbase/](https://urre.github.io/jekyllbase/). Just make sure all references is https. Otherwise you'll get cerfificate warnings/issues.
+
+[Read more](https://pages.github.com/)
