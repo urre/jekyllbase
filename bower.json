@@ -1,10 +1,10 @@
 {
-  "name": "urbansanden",
+  "name": "jekyllbase",
   "version": "0.1.0",
   "authors": [
     "Urban Sanden <hej@urre.me>"
   ],
-  "description": "New personal website",
+  "description": "Minimal Jekyll starter using Basscss and Gulp.",
   "devDependencies": {
     "basscss-sass": "*"
   }
