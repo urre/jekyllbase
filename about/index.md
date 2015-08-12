@@ -8,6 +8,8 @@ description: About Jekyllbase
 
 Minimal Jekyll starter using Basscss and Gulp.
 
+Also checkout [Jekyllbase AWS](https://github.com/urre/jekyllbase-aws)
+
 ## Features
 + [Basscss](http://www.basscss.com/)
 + [Gulp](http://gulpjs.com/) workflow using partials
