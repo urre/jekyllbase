@@ -58,6 +58,6 @@ Https is supported on project sites, so you can use [https://urre.github.io/jeky
 
 [Read more](https://pages.github.com/)
 
-*Custom domain?*
+#### Custom domain?
 
-Yup, read [https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
+Yup, [read](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
