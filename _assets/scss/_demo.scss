@@ -1,24 +1,7 @@
 
 /*-------------------------------------------------------------------
-Type
+Base
 -------------------------------------------------------------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'San Francisco Text', sans-serif;
-}
-
-ol,
-ul {
-	font-family: 'San Francisco Text', sans-serif;
-	@media #{$breakpoint-md} {
-		font-size: 1.5rem;	
-	}
-}
-
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -48,15 +31,43 @@ body {
     color: #707070;
 }
 
+/*-------------------------------------------------------------------
+Typography
+-------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'San Francisco Text', sans-serif;
+    font-weight: normal;
+    @media #{$breakpoint-md} {
+    	font-size: 150%;
+    }
+}
+
+ol,
+ul {
+	font-family: 'San Francisco Text', sans-serif;
+	li {
+		color: lighten(black, 65%);
+	}
+	@media #{$breakpoint-md} {
+		font-size: 1.5rem;	
+	}
+}
+
 p {
 	font-family: "Times New Roman", serif;
 	color: lighten(black, 65%);
 	@media #{$breakpoint-md} {
-		font-size: 1.45rem;	
+		font-size: 1.5rem;	
 	}
 }
 
 
+// Medium style underlined links
 a {
 	background-image: linear-gradient(to top,
 	  rgba(0,0,0,0) 11%,
@@ -70,7 +81,12 @@ a {
 	}
 }
 
-i, cite, em, var, address, dfn {
+i, 
+cite, 
+em, 
+var, 
+address, 
+dfn {
     font-family: "Times New Roman";
 }
 

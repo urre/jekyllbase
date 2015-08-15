@@ -10,7 +10,7 @@ description: Starting point for a simple Jekyll site
     {% for post in paginator.posts %}
     <article class="post mb4" role="article">
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 mt0">
+          <h3 class="mt0">
             <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
             {{ post.title }}
             </a>
