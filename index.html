@@ -9,13 +9,12 @@ description: Starting point for a simple Jekyll site
   <div class="posts">
     {% for post in paginator.posts %}
     <article class="post mb4" role="article">
-        <div class="post-meta">
-          <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
           <h3 class="h2 mt0">
             <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
             {{ post.title }}
             </a>
-          </h3
+          </h3>
           <p class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
@@ -23,7 +22,6 @@ description: Starting point for a simple Jekyll site
               {{ post.excerpt }}
             {% endif %}
           </p>
-        </div>
       </article>
     {% endfor %}
   </div>

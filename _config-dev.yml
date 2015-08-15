@@ -5,7 +5,7 @@ description:        Minimal Jekyll Starter using Basscss and Gulp
 twitter_username:   urre
 exclude: 			["node_modules", "gulpfile.js", "package.json", "bower_components", "gulp"]
 buildtype: 			development
-url:				http://urre.github.io/jekyllbase
+url:				http://localhost:3000
 repo: 				https://github.com/urre/jekyllbase
 twittercards: 		true 		
 
