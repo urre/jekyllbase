@@ -13,7 +13,7 @@ gems:
 - jekyll-paginate
 
 # Build settings
-markdown:     rdiscount
+markdown:     kramdown
 permalink:    pretty
 pygments:     true
 paginate:     10

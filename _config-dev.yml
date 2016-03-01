@@ -12,7 +12,7 @@ gems:
 - jekyll-paginate
 
 # Build settings
-markdown: 			redcarpet
+markdown: 			kramdown
 paginate:     		3
 highlighter: 		rouge
 lsi: 				false
