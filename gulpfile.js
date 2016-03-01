@@ -1,6 +1,6 @@
 /**
  * Jekyllbase
- * MIT 2015 Urban Sanden
+ * MIT 2016 Urban Sanden
  */
 
 var requireDir = require('require-dir');

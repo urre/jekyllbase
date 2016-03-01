@@ -3,13 +3,13 @@
 Base
 -------------------------------------------------------------------*/
 *, *::after, *::before {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html,
 body {
-    min-height: 100%;
-    height: auto;
+	min-height: 100%;
+	height: auto;
 }
 
 html {
@@ -21,14 +21,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
-    font-family: 'San Francisco Text', sans-serif;
-    @media #{$breakpoint-md} {
-    	font-size: 1.5rem;	
-    }
-    font-weight: normal;
-    max-width: 45rem;
-    margin: 3.2rem auto;
-    color: #707070;
+	font-size: 100%;
+	font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
+	@media #{$breakpoint-md} {
+		font-size: 1.5rem;
+	}
+	font-weight: normal;
+	max-width: 45rem;
+	margin: 3.2rem auto;
+	color: #707070;
 }
 
 /*-------------------------------------------------------------------
@@ -40,29 +41,29 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'San Francisco Text', sans-serif;
-    font-weight: normal;
-    @media #{$breakpoint-md} {
-    	font-size: 150%;
-    }
+	font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
+	font-weight: normal;
+	@media #{$breakpoint-md} {
+		font-size: 150%;
+	}
 }
 
 ol,
 ul {
-	font-family: 'San Francisco Text', sans-serif;
+	font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
 	li {
 		color: lighten(black, 65%);
 	}
 	@media #{$breakpoint-md} {
-		font-size: 1.5rem;	
+		font-size: 1.5rem;
 	}
 }
 
 p {
-	font-family: "Times New Roman", serif;
+	font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
 	color: lighten(black, 65%);
 	@media #{$breakpoint-md} {
-		font-size: 1.5rem;	
+		font-size: 1.5rem;
 	}
 }
 
@@ -70,24 +71,24 @@ p {
 // Medium style underlined links
 a {
 	background-image: linear-gradient(to top,
-	  rgba(0,0,0,0) 11%,
-	  rgba(0,0,0,.3) 11%,
-	  rgba(0,0,0,.3) 16%,
-	  rgba(0,0,0,0) 16%
-	  );
+		rgba(0,0,0,0) 11%,
+		rgba(0,0,0,.3) 11%,
+		rgba(0,0,0,.3) 16%,
+		rgba(0,0,0,0) 16%
+		);
 	&:hover {
 		text-decoration: none;
 		color: $link-color-hover;
 	}
 }
 
-i, 
-cite, 
-em, 
-var, 
-address, 
+i,
+cite,
+em,
+var,
+address,
 dfn {
-    font-family: "Times New Roman";
+	font-family: "Times New Roman";
 }
 
 /*-------------------------------------------------------------------
@@ -114,7 +115,7 @@ Posts
 	text-transform: uppercase;
 	color: #bbb;
 	@media #{$breakpoint-md} {
-		font-size: 1.2rem;	
+		font-size: 1.2rem;
 	}
 }
 

@@ -6,33 +6,20 @@ $link-color: $profile;
 $link-color-hover: darken($profile, 10%);
 
 /*-------------------------------------------------------------------
-Type
--------------------------------------------------------------------*/
-@import "type";
-
-/*-------------------------------------------------------------------
 BASSCSS
 http://www.basscss.com
 -------------------------------------------------------------------*/
-@import "bower_components/basscss-sass/base-buttons";
-@import "bower_components/basscss-sass/base-forms";
-@import "bower_components/basscss-sass/defaults";
-@import "bower_components/basscss-sass/color-base";
-@import "bower_components/basscss-sass/color-forms";
-@import "bower_components/basscss-sass/colors";
-@import "bower_components/basscss-sass/utility-layout";
-@import "bower_components/basscss-sass/positions";
-@import "bower_components/basscss-sass/base-reset";
-@import "bower_components/basscss-sass/base-typography";
-@import "bower_components/basscss-sass/grid";
-@import "bower_components/basscss-sass/table-object";
-@import "bower_components/basscss-sass/white-space";
-@import "bower_components/basscss-sass/utility-typography";
-@import "bower_components/basscss-sass/flex-object";
-@import "bower_components/basscss-sass/responsive-states";
-@import "bower_components/basscss-sass/responsive-white-space";
-@import "bower_components/basscss-sass/button-link";
-@import "bower_components/basscss-sass/table-object";
+@import "node_modules/basscss-sass/scss/type-scale";
+@import "node_modules/basscss-sass/scss/typography";
+@import "node_modules/basscss-sass/scss/layout";
+@import "node_modules/basscss-sass/scss/align";
+@import "node_modules/basscss-sass/scss/margin";
+@import "node_modules/basscss-sass/scss/padding";
+@import "node_modules/basscss-sass/scss/grid";
+@import "node_modules/basscss-sass/scss/flexbox";
+@import "node_modules/basscss-sass/scss/position";
+@import "node_modules/basscss-sass/scss/border";
+@import "node_modules/basscss-sass/scss/hide";
 
 
 /*-------------------------------------------------------------------

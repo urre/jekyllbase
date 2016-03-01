@@ -1,4 +1,3 @@
-# Site settings
 title:              Jekyllbase
 email:              hej@urre.me
 description:        Minimal Jekyll Starter using Basscss and Gulp
@@ -10,11 +9,11 @@ repo: 				https://github.com/urre/jekyllbase
 twittercards:		true
 baseurl:     		/jekyllbase
 
+gems:
+- jekyll-paginate
+
 # Build settings
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
 paginate:     10
-
-# Permalinks
-relative_permalinks: true

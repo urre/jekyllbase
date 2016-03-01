@@ -1,5 +1,5 @@
 {
-  "name": "jekyllbase",
+  "name": "jekyllbase-aws",
   "version": "0.1.0",
   "description": "Jekyll Base",
   "main": "gulpfile.js",
@@ -33,5 +33,8 @@
     "sass",
     "browsersync"
   ],
-  "homepage": "https://labs.urre.me"
+  "homepage": "https://labs.urre.me",
+  "dependencies": {
+    "basscss-sass": "^4.0.0"
+  }
 }
